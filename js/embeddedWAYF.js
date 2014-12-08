@@ -1079,8 +1079,9 @@ function loadImprovedDropDown(){
 		
 		
 		writeHTML(form_start);
+		writeHTML('<legend style="font-weight:bold; color: #ccc; text-align: center;">Login</legend>');
 		writeHTML('<input name="request_type" type="hidden" value="embedded">');
-		writeHTML('<select id="user_idp" name="user_idp" style="margin-top: 6px; width: 100%; background-color:#ffffff;">');
+		writeHTML('<select id="user_idp" name="user_idp" style="margin-top: 6px; width: 100%; background-color:#ffffff;color:#555;font-size-normal;">');
 		
 		// Add first entry: "Select your IdP..."
 		writeHTML('<option value="-"><?php echo $selectIdPString ?> ...</option>');
@@ -1218,7 +1219,7 @@ function loadImprovedDropDown(){
 		
 		
 		// Draw submit button
-		writeHTML('<input class="login primary" id="wayf_submit_button" type="submit" name="Login" accesskey="s" value="' + wayf_overwrite_submit_button_text + '" style="float: right; margin-top:6px;" onClick="javascript:return submitForm();">');
+		writeHTML('<input class="login primary" id="wayf_submit_button" type="submit" name="Login" accesskey="s" value="' + wayf_overwrite_submit_button_text + '" style="float: right; margin-top:6px;font-size:100%;" onClick="javascript:return submitForm();">');
 		
 		// Close form
 		writeHTML('</form>');
@@ -1248,3 +1249,11 @@ function loadImprovedDropDown(){
 		}
 	}
 })()
+
+$(document).ready(function() {
+	if ($('#altloginswitch')) {
+		$('#altloginswitch').on('click', function() {
+			$('#altlogin').toggle();
+		});
+	}
+})
