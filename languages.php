@@ -59,7 +59,7 @@ $langStrings['en']['valid_request_description'] = 'A valid request needs at leas
 $langStrings['en']['valid_saml2_request_description'] = 'A valid SAML2 request needs at least the arguments <code>entityID</code> and <code>return</code> with valid values. Instead of the <code>return</code> argument, metadata for the Service Provider can include a <code>DiscoveryResponse</code> endpoint. Optionally the arguments <code>isPassive</code>, <code>policy</code> and <code>returnIDParam</code> can be supplied to automtically redirect the web browser to an organisation and to do that automatically for the current web browser session';
 $langStrings['en']['invalid_query'] = 'Error: Invalid Query';
 $langStrings['en']['select_button'] = 'Select';
-$langStrings['en']['login'] = 'Login and/or account creation';
+$langStrings['en']['login'] = 'Connection';
 $langStrings['en']['login_with'] = 'Login with:';
 $langStrings['en']['other_federation'] = 'From other federations';
 $langStrings['en']['logged_in'] = 'You are already authenticated. <a href=\"%s\">Proceed</a>.';
@@ -161,7 +161,7 @@ $langStrings['fr']['valid_request_description'] = 'Une requ&ecirc;te valide doit
 $langStrings['fr']['valid_saml2_request_description'] = 'Une requ&ecirc;te valide doit contenir au moins les param&egrave;tres <code>entityID</code> et <code>return</code>. Au lieu de param&egrave;tre <code>return</code>, metadata pour ce Service Provider peut contenir un URL pour le <code>DiscoveryResponse</code>. Les param&egrave;tres optionnel <code>isPassive</code>, <code>policy</code> et <code>returnIDParam</code> peuvent &ecirc;tre utilis&eacute;s pour rediriger automatiquement le navigateur vers un &eacute;tablissement.';
 $langStrings['fr']['invalid_query'] = 'Erreur : La requ&ecirc;te n\'est pas valide';
 $langStrings['fr']['select_button'] = 'S&eacute;lection';
-$langStrings['fr']['login'] = 'Connexion et/ou création d\'un compte';
+$langStrings['fr']['login'] = 'Connexion';
 $langStrings['fr']['login_with'] = 'Se connecter avec:';
 $langStrings['fr']['other_federation'] = 'D\'autres f&eacute;derations';
 $langStrings['fr']['logged_in'] = 'Vous &ecirc;tes authentifi&eacute; Janus<br/> <b><a href=\"%s\">Continuez</a></b> ou fermez votre navigateur';
