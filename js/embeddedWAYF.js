@@ -1256,4 +1256,8 @@ function loadImprovedDropDown(){
 // 			$('#altlogin').toggle();
 // 		});
 // 	}
+<<<<<<< HEAD
 // })
+=======
+// })
+>>>>>>> 7b5b4fc31b837454185a4d89bbcc07dd97eecfa9
