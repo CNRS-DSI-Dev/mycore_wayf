@@ -10,7 +10,7 @@
 
 // Essential settings
 var wayf_URL = "https://mycore.core-cloud.net/wayf/index.php";
-var wayf_sp_entityID = "https://mycore.core-cloud.net";
+var wayf_sp_entityID = "https://mycore.core-cloud.net/sp";
 var wayf_sp_handlerURL = "https://mycore.core-cloud.net/Shibboleth.sso";
 var wayf_return_url = "https://mycore.core-cloud.net/?app=usv2";
 
@@ -1079,8 +1079,9 @@ function loadImprovedDropDown(){
 		
 		
 		writeHTML(form_start);
+		writeHTML('<legend style="font-size: 140%;font-weight:bold; color: #ccc; text-align: center;">Login et/ou demande de compte via Janus</legend>');
 		writeHTML('<input name="request_type" type="hidden" value="embedded">');
-		writeHTML('<select id="user_idp" name="user_idp" style="margin-top: 6px; width: 100%; background-color:#ffffff;">');
+		writeHTML('<select id="user_idp" name="user_idp" style="margin-top: 6px; width: 100%; background-color:#ffffff;color:#555;font-size-normal;">');
 		
 		// Add first entry: "Select your IdP..."
 		writeHTML('<option value="-"><?php echo $selectIdPString ?> ...</option>');
@@ -1218,7 +1219,7 @@ function loadImprovedDropDown(){
 		
 		
 		// Draw submit button
-		writeHTML('<input class="login primary" id="wayf_submit_button" type="submit" name="Login" accesskey="s" value="' + wayf_overwrite_submit_button_text + '" style="float: right; margin-top:6px;" onClick="javascript:return submitForm();">');
+		writeHTML('<input class="login primary" id="wayf_submit_button" type="submit" name="Login" accesskey="s" value="' + wayf_overwrite_submit_button_text + '" style="float: right; margin-top:6px;font-size:120%;" onClick="javascript:return submitForm();">');
 		
 		// Close form
 		writeHTML('</form>');
@@ -1248,3 +1249,11 @@ function loadImprovedDropDown(){
 		}
 	}
 })()
+
+// $(document).ready(function() {
+// 	if ($('#altloginswitch')) {
+// 		$('#altloginswitch').on('click', function() {
+// 			$('#altlogin').toggle();
+// 		});
+// 	}
+// })

@@ -59,7 +59,7 @@ $langStrings['en']['valid_request_description'] = 'A valid request needs at leas
 $langStrings['en']['valid_saml2_request_description'] = 'A valid SAML2 request needs at least the arguments <code>entityID</code> and <code>return</code> with valid values. Instead of the <code>return</code> argument, metadata for the Service Provider can include a <code>DiscoveryResponse</code> endpoint. Optionally the arguments <code>isPassive</code>, <code>policy</code> and <code>returnIDParam</code> can be supplied to automtically redirect the web browser to an organisation and to do that automatically for the current web browser session';
 $langStrings['en']['invalid_query'] = 'Error: Invalid Query';
 $langStrings['en']['select_button'] = 'Select';
-$langStrings['en']['login'] = 'Login';
+$langStrings['en']['login'] = 'Connection';
 $langStrings['en']['login_with'] = 'Login with:';
 $langStrings['en']['other_federation'] = 'From other federations';
 $langStrings['en']['logged_in'] = 'You are already authenticated. <a href=\"%s\">Proceed</a>.';
