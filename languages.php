@@ -1,9 +1,9 @@
 <?php // Copyright (c) 2014, SWITCH
 
 // Localized language strings for SWITCHwayf
-// Make sure to use HTML entities instead of plain UTF-8 characters for 
+// Make sure to use HTML entities instead of plain UTF-8 characters for
 // non-ASCII characters if you are using the Embedded WAYF. It could be that the
-// Embedded WAYF is used on non-UTF8 web pages, which then could cause 
+// Embedded WAYF is used on non-UTF8 web pages, which then could cause
 // encoding issues
 
 // *********************************************************************************
@@ -14,12 +14,12 @@
 // ****************************
 
 // To permanently customize locales such that they are not overwritten by updates
-// of the SWITCHwayf, create a file 'custom-languages.php' and override any 
+// of the SWITCHwayf, create a file 'custom-languages.php' and override any
 // individual locale in the $langStrings array. For example like this:
-// 
+//
 // $langStrings['en']['about_federation'] = 'About Example Federation';
 // $langStrings['en']['additional_info'] = 'My <b>sample HTML content</b>';
-// 
+//
 //
 // Set a locale to an empty string ('') in order to hide it
 // Note that any string in custom-languages.php will survive updates
@@ -35,8 +35,8 @@ $langStrings['en']['faq'] = 'FAQ'; // This string can be hidden by setting it to
 $langStrings['en']['help'] = 'Help';// This string can be hidden by setting it to ''
 $langStrings['en']['privacy'] = 'Data Privacy'; // This string can be hidden by setting it to ''
 $langStrings['en']['title'] = 'Organisation Selection';
-$langStrings['en']['header'] = 'Select your organisation'; 
-$langStrings['en']['make_selection'] = 'You must select an organisation.';
+$langStrings['en']['header'] = 'Select your organisation';
+$langStrings['en']['make_selection'] = 'You must select an status.';
 $langStrings['en']['settings'] = 'Default organisation for this web browser';
 $langStrings['en']['permanent_select_header'] = 'Permanently set your organisation';
 $langStrings['en']['permanent_cookie'] = 'On this page you can set a <strong>default organisation</strong> for this web browser. Setting a default organisation will henceforth redirect you directly to your organisation when you access certain services that require login. Don\'t use this feature if you use several user accounts from multiple organisations.';
@@ -48,7 +48,7 @@ $langStrings['en']['permanently_remember_selection'] = 'Remember selection perma
 $langStrings['en']['confirm_permanent_selection'] = 'Are you sure you want to make the selected organisation your default organisation? Don\'t proceed if you have several user accounts from multiple organisations.';
 $langStrings['en']['save_button'] = 'Save';
 $langStrings['en']['access_host'] = 'In order to access the service %s please select or search the organisation you are affiliated with.';
-$langStrings['en']['select_idp'] = 'Select the organisation you are affiliated with.';
+$langStrings['en']['select_idp'] = 'Select your status.';
 $langStrings['en']['search_idp'] = 'Enter the name of the organisation you are affiliated with...';
 $langStrings['en']['remember_selection'] = 'Remember selection for this web browser session.';
 $langStrings['en']['invalid_user_idp'] = 'There may be an error in the data you just submitted.<br>The value of your input <code>\'%s\'</code> is invalid.<br>Only the following values are allowed:';
@@ -138,7 +138,7 @@ $langStrings['fr']['help'] = 'Aide';// This string can be hidden by setting it t
 $langStrings['fr']['privacy'] = 'Protection des donn&eacute;es';// This string can be hidden by setting it to ''
 $langStrings['fr']['title'] = 'S&eacute;lection de votre &eacute;tablissement';
 $langStrings['fr']['header'] = 'S&eacute;lectionnez votre &eacute;tablissement';
-$langStrings['fr']['make_selection'] = 'Vous devez s&eacute;lectionner un &eacute;tablissement valide.';
+$langStrings['fr']['make_selection'] = 'Vous devez s&eacute;lectionner un statut valide.';
 $langStrings['fr']['settings'] = '&Eacute;tablissement par d&eacute;faut pour ce navigateur';
 $langStrings['fr']['permanent_select_header'] = 'S&eacute;lection d\'un &eacute;tablissement de fa&ccedil;on permanente';
 $langStrings['fr']['permanent_cookie'] = 'Sur cette page vous pouvez d&eacute;finir un <strong>&eacute;tablissement par d&eacute;faut</strong> pour ce navigateur. En d&eacute;finissant un &eacute;tablissement par d&eacute;faut, vous serez automatiquement redirig&eacute; vers cet &eacute;tablissement lorsque vous acc&eacute;dez &agrave; une ressource. N\'utilisez pas cette fonction si vous avez plusieurs identit&eacute;s dans plusieurs &eacute;tablissements.';
@@ -150,7 +150,7 @@ $langStrings['fr']['permanently_remember_selection'] = 'Se souvenir de mon choix
 $langStrings['fr']['confirm_permanent_selection'] = '&Ecirc;tes-vous s&ucirc;r de ce choix d&rsquo;&eacute;tablissement par d&eacute;faut ? N&rsquo;utilisez pas cette fonctionnalit&eacute; si vous poss&eacute;der des comptes dans plusieurs &eacute;tablissements.';
 $langStrings['fr']['save_button'] = 'Sauver';
 $langStrings['fr']['access_host'] = 'Pour acc&eacute;der au service %s s&eacute;lectionnez ou cherchez l\'&eacute;tablissement auquel vous appartenez.';
-$langStrings['fr']['select_idp'] = 'Veuillez s&eacute;lectionner l\'&eacute;tablissement auquel vous appartenez.';
+$langStrings['fr']['select_idp'] = 'Veuillez s&eacute;lectionner votre statut.';
 $langStrings['fr']['search_idp'] = 'Veuillez entrer le nom de votre &eacute;tablissement...';
 $langStrings['fr']['remember_selection'] = 'Se souvenir de mon choix pour cette session.';
 $langStrings['fr']['invalid_user_idp'] = 'Une erreur s\'est produite.<br>La valeur de votre donn&eacute;e <code>\'%s\'</code> n\'est pas valide.<br>Seules ces valeurs sont admises :';
