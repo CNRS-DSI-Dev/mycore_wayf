@@ -70,7 +70,7 @@ function redirectTo(url){
 function submitForm(){
 
 	if (document.IdPList.user_idp && document.IdPList.user_idp.selectedIndex == 0){
-		alert('<?php echo $makeSelectionString ?>');
+		OCdialogs.alert('<?php echo $makeSelectionString ?>', '<?php echo getLocalString("login"); ?>', false, true);
 		return false;
 	}
 
