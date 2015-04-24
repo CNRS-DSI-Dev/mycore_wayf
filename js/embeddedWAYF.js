@@ -1217,9 +1217,13 @@ function loadImprovedDropDown(){
 			writeHTML('<input id="wayf_remember_checkbox" type="hidden" name="session" value="true">');
 		}
 
+		// pas trouvé d'autre moyen...
+		var re = /<a href="([^"]*)"[^>]*>Aide<\/a>/
+		var mycoreHelpUrl = oc_defaults.longFooter.match(re)[1];
 
 		// Draw submit button
 		writeHTML('<input class="login primary" id="wayf_submit_button" type="submit" name="Login" accesskey="s" value="' + wayf_overwrite_submit_button_text + '" style="float: right; margin-top:6px;font-size:220%;">');
+		writeHTML('<a href="' + mycoreHelpUrl + '" target="_blank"><span id="helpLink">?</span></a>');
 
 		// Close form
 		writeHTML('</form>');
