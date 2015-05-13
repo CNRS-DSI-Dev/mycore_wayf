@@ -1081,7 +1081,7 @@ function loadImprovedDropDown(){
 		writeHTML(form_start);
 		writeHTML('<legend style="font-size: 140%;font-weight:bold; color: #ccc; text-align: center;">Login et/ou demande de compte via Janus</legend>');
 		writeHTML('<input name="request_type" type="hidden" value="embedded">');
-		writeHTML('<select id="user_idp" name="user_idp" style="margin-top: 6px; width: 100%; background-color:#ffffff;color:#555;font-size-normal;">');
+		writeHTML('<select id="user_idp" name="user_idp" style="margin-top: 6px; width: 100%; background-color:#ffffff;color:#555;font-size-normal;display:block;">');
 
 		// Add first entry: "Select your IdP..."
 		writeHTML('<option value="-"><?php echo $selectIdPString ?> ...</option>');
