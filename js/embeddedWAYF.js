@@ -1218,8 +1218,14 @@ function loadImprovedDropDown(){
 		}
 
 		// pas trouvé d'autre moyen...
-		var re = /<a href="([^"]*)"[^>]*>Aide<\/a>/
-		var mycoreHelpUrl = oc_defaults.longFooter.match(re)[1];
+		var re = /<a href="([^"]*)"[^>]*>Aide<\/a>/;
+		var result = oc_defaults.longFooter.match(re);
+		if (result === null) {
+			var mycoreHelpUrl = 'https://aide.core-cloud.net/mycore/';
+		}
+		else {
+			var mycoreHelpUrl = result[1];
+		}
 
 		// Draw submit button
 		writeHTML('<input class="login primary" id="wayf_submit_button" type="submit" name="Login" accesskey="s" value="' + wayf_overwrite_submit_button_text + '" style="float: right; margin-top:6px;font-size:220%;">');
