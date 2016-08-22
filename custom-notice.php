@@ -1,7 +1,7 @@
 <?php // Copyright (c) 2014, SWITCH ?>
 
 <!-- Identity Provider Selection: Start -->
-<h1><?php echo getLocalString('settings'); ?></h1> 
+<h1><?php echo getLocalString('settings'); ?></h1>
 <form id="IdPList" name="IdPList" method="post" onSubmit="return checkForm()" action="<?php echo $actionURL ?>">
 	<div id="userInputArea">
 		<p class="promptMessage"><?php echo getLocalString('confirm_permanent_selection'); ?></p>
@@ -24,5 +24,5 @@
 	</div>
 </form>
 
-<p><a href="http://www.offres-de-services-unites.net/" target="_blank">CNRS</a> – My CoRe, partage et nomadisme</p>
+<p><a href="http://ods.cnrs.fr/" target="_blank">CNRS</a> – My CoRe, partage et nomadisme</p>
 <!-- Identity Provider Selection: End -->
